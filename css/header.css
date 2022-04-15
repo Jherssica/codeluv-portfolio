@@ -24,6 +24,10 @@
     display: block;
 }
 
+.header-menu a:hover{
+    color: #A73469;
+}
+
 @media (max-width : 800px){
     .header {
         flex-decoration: column;

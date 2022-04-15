@@ -1,0 +1,41 @@
+.sobre{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin:75px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.sobre .subtitulo{
+
+    color: #e0e0e0;
+}
+
+.sobre-texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 50ch;
+    margin-bottom: 60px;
+    color: #525252;
+}
+
+.sobre .subtitulo{
+    max-width: 5ch;
+}
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+@media (max-width:  800px){
+    .sobre{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .sobre .subtitulo{
+        color: #141414;
+    }
+}   

@@ -14,13 +14,24 @@
     font-size: 4.5rem;
     line-height: 1.125;
     margin-bottom: 30px;
+    color: #121212;
     
 }
-.introducao p{
-    font-size: 1.5rem;
-    color:#525252;
+
+
+.introducao a{
+    background-color: #A73469;
+    color: #fff;
+    text-decoration: none;
+    padding:  15px 30px;
+    border-radius: 4px;
 }
 
+.introducao a:hover{
+     background-color: #4A285D;
+     color: #fff;
+     border-radius: 4px solid;
+}
 
 @media ( max-width: 1000px){
     .introducao h1{
@@ -34,9 +45,24 @@
         gap: 40px;
     }
     .introducao h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
+
+
+
+@media ( max-width: 600px) {
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .introducao h1{
+        font-size: 3rem;
+}
+
+
+}
+
 
 
 @media (max-width: 400px) {

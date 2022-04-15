@@ -1,6 +1,7 @@
 body {
-    font-family: "Fira Sans",Arial, Helvetica, sans-serif;
+    font-family: "Fira Sans",Arial, sans-serif;
     margin: 0px;
+    gap: 60px;
     color: #141414;
 }
 
@@ -17,4 +18,12 @@ ul{
 img{
     max-width: 100%;
     display: block;
+}
+
+.subtitulo{
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
 }
